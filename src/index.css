@@ -1,82 +1,44 @@
 body {
-  background: #f1f5f9;
+  font-family: sans-serif;
+  background: #f1f5f8;
   display: flex;
   justify-content: center;
-  padding-top: 5rem;
 }
-.section-center {
+.container {
   background: white;
-  width: 90vw;
-  max-width: 35rem;
   padding: 2rem;
+  margin-top: 5rem;
   border-radius: 0.5rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+h3 {
   text-align: center;
 }
 .form-control {
   display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-.grocery {
-  padding: 0.5rem;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  flex: 1;
-  border-radius: 0.25rem 0 0 0.25rem;
-}
-.submit-btn {
-  background: #06b6d4;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0 0.25rem 0.25rem 0;
-  cursor: pointer;
-}
-.grocery-item {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
-  transition: 0.3s;
 }
-.title {
+input {
+  padding: 0.25rem;
+  border-radius: 0.2rem;
+  border: 1px solid #ccc;
   flex-grow: 1;
-  text-align: left;
-  margin-left: 1rem;
-  text-transform: capitalize;
+  margin-right: 0.5rem;
 }
-.completed {
-  text-decoration: line-through;
-  color: #64748b;
-}
-.btn-container {
+.item {
   display: flex;
-  gap: 0.5rem;
-}
-.edit-btn,
-.delete-btn {
-  width: 2rem;
-  height: 2rem;
-  border: none;
-  border-radius: 0.25rem;
-  color: white;
-  cursor: pointer;
-  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  margin-top: 1rem;
+  border-bottom: 1px solid #eee;
 }
-.edit-btn {
-  background: #06b6d4;
-}
-.delete-btn {
-  background: #1e293b;
-}
-.clear-btn {
-  background: transparent;
-  border: none;
-  color: #842029;
+button {
   cursor: pointer;
-  margin-top: 1.5rem;
-  text-transform: capitalize;
+  background: #645cff;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.25rem 0.5rem;
+  margin-left: 0.2rem;
 }
